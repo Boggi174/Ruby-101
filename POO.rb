@@ -79,7 +79,6 @@ loop do
 
         print question, "\n\n"
 
-        exit(0) unless $stdin.gets
 
         puts "\n ANSWER:  %s\n\n" %answer
     end
